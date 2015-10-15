@@ -117,7 +117,9 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
+			
 			$("#myModal").html("<a href='http://www.nekostore.com/' target='_blank'><img src='http://www.nekostore.com/wp-content/themes/neko/images/logo.png' width='500px'/>Hàng tiêu dùng Thái Lan<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
